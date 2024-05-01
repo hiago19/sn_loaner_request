@@ -41,7 +41,8 @@
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">The <strong>${item_type}</strong> (<strong>${cmdb_ci}</strong>) is avaliable for pick up at <strong>${depot}</strong>.</span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Your reservation is scheduled to begin <strong>${start_date}</strong>. Please return the item to the same location you picked it up by <strong>${end_date}</strong>.</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">You will receive a return reminder notification.</span></p>]]></message_html>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">You will receive a return reminder notification.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:x_1168101_loan_req_loaner_request_script_1}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loaner Item Pick Up</name>
@@ -63,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6fb6bbf472d0a1042011098c26d4309</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_1168101_loan_req">fde9f12e47b0021042011098c26d4324</sys_package>
@@ -71,7 +72,7 @@
         <sys_scope display_value="Loaner Request">fde9f12e47b0021042011098c26d4324</sys_scope>
         <sys_update_name>sysevent_email_action_d6fb6bbf472d0a1042011098c26d4309</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-21 03:07:01</sys_updated_on>
+        <sys_updated_on>2024-04-30 00:52:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
