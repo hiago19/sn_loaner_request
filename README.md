@@ -4,7 +4,7 @@ O aplicativo **adf_loaner_request** é um sistema de solicitação de empréstim
 
 ## Estrutura
 
-A estrutura do projeto pode ser organizada da seguinte forma:
+A estrutura do projeto foi organizada da seguinte forma:
 
 - **`/src`**: Contém os arquivos-fonte do aplicativo.
   - **`/src/scripts`**: Scripts e lógica de negócios.
@@ -14,7 +14,7 @@ A estrutura do projeto pode ser organizada da seguinte forma:
 
 ## Tecnologias Utilizadas
 
-Descreva as tecnologias e ferramentas que você usou para desenvolver o aplicativo. Por exemplo:
+Algumas tecnologias e ferramentas utilizadas para desenvolver o aplicativo, foram:
 - **ServiceNow**: Plataforma de desenvolvimento de aplicativos.
 - **JavaScript**: Linguagem de programação para lógica de negócios.
 - **HTML/CSS**: Para a interface do usuário.
@@ -29,7 +29,6 @@ Se você deseja executar o aplicativo localmente para fins de desenvolvimento ou
 
 ## Funcionalidades
 
-Descreva as principais funcionalidades do aplicativo, como:
 - Solicitação de empréstimo de ativos.
 - Aprovação de solicitações por parte dos gerentes.
 - Notificações por e-mail para os usuários.
